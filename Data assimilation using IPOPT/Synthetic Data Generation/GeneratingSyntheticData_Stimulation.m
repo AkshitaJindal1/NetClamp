@@ -11,7 +11,7 @@ M = readmatrix ("I_app_protocol.dat");
 t = 5*M(:,1);  %In Alain's data, the frequency is 50KHz (for neurons) which is too high for our cells (10KHz). So, to make the oscillations 5times slower, multiply by 5 instead of dividing
 I = M(:,2);
 
-%y0 are the initial conditions
+%y0 are the initial conditions.
 y0 = [-60;0.01;0.01;0.5]; %Voltage, n-activation of potassium current, f-activation of Bk Channels, concentartion of Ca ions
 
 % Anonymous functions - no step current i.e. zero amplitude
