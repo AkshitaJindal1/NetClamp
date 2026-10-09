@@ -1,0 +1,13 @@
+#################################
+# Basic problem specifications
+#################################
+# number of points observed
+40001
+#number of points to skip
+25000
+# adaptive? (0/1)
+0
+# step size (dt)
+0.1
+# adaptive file
+#hstep.txt
